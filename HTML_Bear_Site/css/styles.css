@@ -1,0 +1,47 @@
+body{
+    background-color: #ffefd5;
+
+
+}
+h1 {
+    color: #3c2501;
+}
+h3 {
+    color: #463211;
+}
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color:#71501c;
+    border-width: 5px;
+    width: 5%;
+}
+.bear1:hover span {
+    display:none;
+}
+.bear1:hover:before {
+    content: "⭐️⭐️⭐️⭐️⭐️";
+}
+.bear2:hover span {
+    display:none;
+}
+.bear2:hover:before {
+    content: "⭐️⭐️⭐️⭐️";
+}
+.bear3:hover span {
+    display:none;
+}
+.bear3:hover:before {
+    content: "⭐️⭐️⭐️";
+}
+
+.images {
+    width: 18%;
+    float: left;
+    margin-right: 23px;
+}
+
+.text {
+    clear: left;
+    margin: 100px auto 10px;
+}
